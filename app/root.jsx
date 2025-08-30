@@ -31,7 +31,7 @@ export function Layout({ children }) {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body suppressHydrationWarning={true}>
         {children}
         <ScrollRestoration />
         <Scripts />
