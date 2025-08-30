@@ -1,4 +1,4 @@
-Create React Router App in JavaScript instead of TypeScript
+### Create React Router App in JavaScript instead of TypeScript
 
 ```
 npx create-react-router@latest my-react-router-app-js --template remix-run/react-router-templates/javascript
@@ -6,3 +6,11 @@ cd my-app
 npm i
 npm run dev
 ```
+
+---
+
+## Reference
+
+### React Router Netlify Template
+
+https://github.com/netlify/react-router-template/tree/main
