@@ -5,4 +5,6 @@ export default [
   index("routes/_index.jsx"),
   route("about", "routes/about.jsx"),
   route("product/:id", "routes/product.jsx"),
+  route("gallery", "routes/image-gallery.jsx"),
+  route("image/:id", "routes/image-details.jsx"),
 ];
