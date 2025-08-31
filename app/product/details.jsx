@@ -14,7 +14,7 @@ export default function ProductDetails({product}) {
       </div>
 
       {product && (
-        <img src={product.image} />
+        <img src={`/products/${product.image}`} />
       )}
 
       <ProductList></ProductList>

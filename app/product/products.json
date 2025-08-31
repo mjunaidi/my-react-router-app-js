@@ -2,26 +2,26 @@
   {
     "id": "1",
     "name": "Wireless Mouse",
-    "image": "/products/wireless-mouse.jpeg"
+    "image": "wireless-mouse.jpeg"
   },
   {
     "id": "2",
     "name": "Bluetooth Headphones",
-    "image": "/products/bluetooth-headphones.png"
+    "image": "bluetooth-headphones.png"
   },
   {
     "id": "3",
     "name": "Smartphone Stand",
-    "image": "/products/smartphone-stand.jpeg"
+    "image": "smartphone-stand.jpeg"
   },
   {
     "id": "4",
     "name": "USB-C Charger",
-    "image": "/products/usb-c-charger.jpeg"
+    "image": "usb-c-charger.jpeg"
   },
   {
     "id": "5",
     "name": "Mechanical Keyboard",
-    "image": "/products/mechanical-keyboard.jpeg"
+    "image": "mechanical-keyboard.jpeg"
   }
 ]
