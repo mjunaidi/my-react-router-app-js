@@ -13,6 +13,10 @@ export default function ProductDetails({product}) {
         </pre>
       </div>
 
+      {product && (
+        <img src={product.image} />
+      )}
+
       <ProductList></ProductList>
 
       {/* Back link to home */}
