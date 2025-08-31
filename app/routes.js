@@ -7,4 +7,5 @@ export default [
   route("product/:id", "routes/product.jsx"),
   route("gallery", "routes/image-gallery.jsx"),
   route("image/:id", "routes/image-details.jsx"),
+  route("sections", "routes/sections.jsx"),
 ];

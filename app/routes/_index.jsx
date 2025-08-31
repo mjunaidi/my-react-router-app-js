@@ -8,15 +8,23 @@ export default function Index() {
       <MyAppNav></MyAppNav>
       <Navbar></Navbar>
 
-      <div>
+      <div className="bg-mint-500">
         <h1>Home Page</h1>
         <p>Welcome to your React Router App.</p>
+
+        <h1 className="text-3xl font-bold underline">
+          Hello world!
+        </h1>
+        <h1 className="font-poppins">This headline will use Poppins.</h1>
       </div>
       
       <ProductList></ProductList>
       
       <div>
-        <a href="/gallery">Go to Image Gallery ➡</a>
+        <ul>
+          <li><a href="/gallery">Go to Image Gallery ➡</a></li>
+          <li><a href="/sections">Go to Page Sections ➡</a></li>
+        </ul>
       </div>
 
       {/* Link to About page */}
