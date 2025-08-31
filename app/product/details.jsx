@@ -14,7 +14,7 @@ export default function ProductDetails({product}) {
       </div>
 
       {product && (
-        <img src={`/products/${product.image}`} />
+        <img src={`/products/${product.image}`} style={{ height: 225 }} />
       )}
 
       <ProductList></ProductList>
